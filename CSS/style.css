@@ -1,0 +1,53 @@
+body {
+    background-color:rgba(240, 240, 240, 1);
+}
+
+/* CABEÇALHO */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    margin-bottom: 60px;
+  }
+  
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(12, 32, 66, 1), rgba(26, 106, 148, 1), rgba(39, 169, 219, 1));
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 25px;
+  }
+  
+  .icon {
+    text-decoration: none;
+    width: 40%;
+  }
+
+  h1 {
+    background: var(--gradiente-text, linear-gradient(rgba(12, 32, 66, 1),rgba(39, 169, 219, 1)));
+    -webkit-text-fill-color: transparent;
+    font-family: "Quicksand", sans-serif;
+    -webkit-background-clip: text;
+    word-wrap: break-word;
+    font-weight: weight;
+    background-clip: text;
+    line-height: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 35px;
+    max-width: 50%;
+}
+
+P {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
