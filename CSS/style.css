@@ -1,53 +1,76 @@
 body {
     background-color:rgba(240, 240, 240, 1);
+    margin: 15px 25px 0px 25px  ;  
+    padding: 0;
 }
 
 /* CABEÇALHO */
 
-body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .content {
-    margin-bottom: 60px;
+.content {
+    margin: 0px;
+    padding: 0%;
   }
   
   .navbar {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+    width: 75%;
     background: linear-gradient(to bottom right, rgba(12, 32, 66, 1), rgba(26, 106, 148, 1), rgba(39, 169, 219, 1));
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 20px 0px 15px 35px;
     border-radius: 25px;
   }
   
   .icon {
     text-decoration: none;
-    width: 40%;
+    width: 35%;
   }
 
   h1 {
     background: var(--gradiente-text, linear-gradient(rgba(12, 32, 66, 1),rgba(39, 169, 219, 1)));
     -webkit-text-fill-color: transparent;
-    font-family: "Quicksand", sans-serif;
     -webkit-background-clip: text;
+    font-family: "Quicksand";
     word-wrap: break-word;
-    font-weight: weight;
+    font-weight: normal;
     background-clip: text;
     line-height: normal;
-    font-style: normal;
     text-align: left;
-    font-size: 35px;
-    max-width: 50%;
+    font-size: 30px;
+    max-width: 45%;
 }
 
-P {
+p {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
+
+.box {
+  width: 85%;
+  height: 60%;
+  margin: auto; 
+  padding: 0px 0px 25px 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: linear-gradient(to bottom right, rgba(12, 32, 66, 1), rgba(26, 106, 148, 1), rgba(39, 169, 219, 1));
+  color: white;
+  padding: 10px 40%;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+
