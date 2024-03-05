@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/atnr.js" defer></script>
 
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +21,14 @@
         <div class="content">
             <h1>MediCare</h1>
             <P>Início</P>
-            <div class="box">
-                <h2>Quarto 01</h2>
-                <p>Leito 30</p>
-                <a href="atender.html" class="btn">Atender</a>
+
+            <button id="expandButton">Clique para Expandir</button>
+            <div id="expandedContent" style="display: none;">
+                <button>Botão 1</button>
+                <button>Botão 2</button>
+                <button>Botão 3</button>
             </div>
-        </div>          
+        </div>
 
         <div class="navbar">
             <a href="index.html"><img src="IMAGENS/home.png" class="icon" id="homeIcon"></a>
@@ -34,7 +37,6 @@
             <a href="perfil.html"><img src="IMAGENS/perfil.png" class="icon" id="perfilIcon"></a>
         </div>
     </div>
-    <script src="JS/index.js"></script>
 </body>
 
 </html>

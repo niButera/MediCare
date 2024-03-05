@@ -73,4 +73,8 @@ p {
   
 }
 
+#expandedContent {
+  display: none;
+}
+
 

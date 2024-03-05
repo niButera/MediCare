@@ -14,3 +14,13 @@ document.getElementById("relatorioIcon").addEventListener("click", function () {
 document.getElementById("perfilIcon").addEventListener("click", function () {
     alert("Clicou em Perfil");
 });
+
+document.getElementById("expandButton").addEventListener("click", function() {
+    var expandedContent = document.getElementById("expandedContent");
+    if (expandedContent.style.display === "none") {
+      expandedContent.style.display = "block";
+    } else {
+      expandedContent.style.display = "none";
+    }
+  });
+  
