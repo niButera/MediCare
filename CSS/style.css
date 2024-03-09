@@ -1,80 +1,118 @@
+/* CORPO */
+
 body {
-    background-color:rgba(240, 240, 240, 1);
-    margin: 15px 25px 0px 25px  ;  
-    padding: 0;
+  background-color: rgba(240, 240, 240, 1);
+  orientation: portrait;
+  padding: 0;
 }
 
+.container {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.bloco01 {
+  background: #0a1d3e;
+  height: 190px;
+  width: 100%;
+}
 /* CABEÇALHO */
 
 .content {
-    margin: 0px;
-    padding: 0%;
-  }
-  
-  .navbar {
-    position: fixed;
-    bottom: 20px;
-    left: 10%;
-    right: 10%;
-    width: 75%;
-    background: linear-gradient(to bottom right, rgba(12, 32, 66, 1), rgba(26, 106, 148, 1), rgba(39, 169, 219, 1));
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0px 15px 35px;
-    border-radius: 25px;
-  }
-  
-  .icon {
-    text-decoration: none;
-    width: 35%;
-  }
-
-  h1 {
-    background: var(--gradiente-text, linear-gradient(rgba(12, 32, 66, 1),rgba(39, 169, 219, 1)));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-family: "Quicksand";
-    word-wrap: break-word;
-    font-weight: normal;
-    background-clip: text;
-    line-height: normal;
-    text-align: left;
-    font-size: 30px;
-    max-width: 45%;
+  margin: 0%;
+  padding: 0%;
 }
 
-p {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+/* NAVBAR */
+
+.navbar {
+  background: linear-gradient(
+    to bottom right,
+    rgba(12, 32, 66, 1),
+    rgba(26, 106, 148, 1),
+    rgba(39, 169, 219, 1)
+  );
+  padding: 20px 0px 20px 10%;
+  border-radius: 25px;
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
 }
+
+.icon {
+  text-decoration: none;
+  width: 35%;
+}
+
+/* CAIXA DE DIALOGO */
 
 .box {
-  width: 85%;
-  height: 60%;
-  margin: auto; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 0px 0px 25px 15px;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
+  display: flow-root;
+  border-radius: 22px;
 }
 
 .btn {
-  background: linear-gradient(to bottom right, rgba(12, 32, 66, 1), rgba(26, 106, 148, 1), rgba(39, 169, 219, 1));
-  color: white;
-  padding: 10px 40%;
-  border-radius: 10px;
-  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  background: rgb(13, 36, 70);
   text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 39%;
+  color: white;
+}
+
+/* FONTES */
+
+h1 {
+  background: var(
+    --gradiente-text,
+    linear-gradient(rgba(12, 32, 66, 1), rgba(39, 169, 219, 1))
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Quicksand";
+  word-wrap: break-word;
+  background-clip: text;
+  font-weight: normal;
+  line-height: normal;
+  margin-bottom: 0%;
+  text-align: left;
+  font-size: 30px;
+  max-width: 45%;
   
 }
 
-#expandedContent {
-  display: none;
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
 }
 
+p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0%;
+}
 
+h4 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 6%;
+}
+
+a {
+  margin: 0%;
+  padding: 0%;
+}
