@@ -2,7 +2,6 @@
 
 body {
   background-color: rgba(240, 240, 240, 1);
-  orientation: portrait;
   padding: 0;
 }
 
@@ -23,21 +22,28 @@ body {
   padding: 0%;
 }
 
+.bttnmid{
+  text-align: center;
+}
+
 /* NAVBAR */
 
 .navbar {
+  position: fixed;
+  bottom: 20px;
+  left: 10%;
+  right: 10%;
+  width: 75%;
   background: linear-gradient(
     to bottom right,
     rgba(12, 32, 66, 1),
     rgba(26, 106, 148, 1),
     rgba(39, 169, 219, 1)
   );
-  padding: 20px 0px 20px 10%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 15px 35px;
   border-radius: 25px;
-  display: inline-flex;
-  align-items: center;
-  position: fixed;
-  bottom: 20px;
 }
 
 .icon {
@@ -55,6 +61,8 @@ body {
   border-radius: 22px;
 }
 
+/* BOTÕES */
+
 .btn {
   font-family: "Quicksand", sans-serif;
   background: rgb(13, 36, 70);
@@ -64,6 +72,17 @@ body {
   font-weight: bold;
   padding: 15px 39%;
   color: white;
+}
+
+button {
+  font-family: "Quicksand", sans-serif;
+  background: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 35%;
+  color: rgb(0, 0, 0);
 }
 
 /* FONTES */
@@ -78,13 +97,12 @@ h1 {
   font-family: "Quicksand";
   word-wrap: break-word;
   background-clip: text;
-  font-weight: normal;
+  font-weight: bold;
   line-height: normal;
   margin-bottom: 0%;
   text-align: left;
   font-size: 30px;
   max-width: 45%;
-  
 }
 
 h3 {
@@ -109,7 +127,6 @@ h4 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  margin-bottom: 6%;
 }
 
 a {
