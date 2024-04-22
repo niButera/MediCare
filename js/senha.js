@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
+
     var senhaInput = document.getElementById('senha');
     var senhaInputConfirm = document.getElementById('senhaConfirm');
-    
     var passwordIcon = document.getElementById('visibleEye');
     if (passwordIcon){
         passwordIcon.addEventListener('click', function() {

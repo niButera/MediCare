@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () =>{
     document.getElementById("volta").addEventListener("click", function(event) {
         event.preventDefault(); // Previne o comportamento padrão do link
